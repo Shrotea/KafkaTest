@@ -4,7 +4,6 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.util.Properties;
 
 public class KafkaProducerApp {
-
     public static void main(String args[]) {
         Properties props = new Properties();
         props.put("bootstrap.servers", "localhost:9092, localhost:9093");
